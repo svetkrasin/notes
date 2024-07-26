@@ -1,4 +1,4 @@
-
+WSL back to Windows - `/mnt/c/Users/<username>`
 Change drive in Terminal - `<Drive_Letter>:`
 Find various software: `winget search <software_name>`
 
