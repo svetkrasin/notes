@@ -168,35 +168,35 @@ Warranty
 
 Stuff I installed:
 
-[Bazecor](https://github.com/Dygmalab/Bazecor/releases) to control [Dygma Defy](https://dygma.com/pages/defy)keyboard ![[Dygma Defy.png]]
+- [Bazecor](https://github.com/Dygmalab/Bazecor/releases) to control [Dygma Defy](https://dygma.com/pages/defy)keyboard ![[Dygma Defy.png]]
 
- [NVIDIA App](https://www.nvidia.com/en-us/software/nvidia-app/)without any account registration and AI add-ons
+- [NVIDIA App](https://www.nvidia.com/en-us/software/nvidia-app/)without any account registration and AI add-ons
 
-[VMware Workstation Pro](https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html)UPD: after broadcom acquisition, follow the next steps:
-1. Go to [broadcom.com](https://www.broadcom.com/)
-2. In the upper right corner, select 'Support Portal'
-3. Either log in by clicking 'Go To Portal' or 'Register' for a basic Broadcom account [Quick link to the registration form](https://profile.broadcom.com/web/registration)
-4. Once logged in, go to [support.broadcom.com](https://support.broadcom.com/) if you're not redirected there
-5. Click the dropdown to choose the VMware Cloud Foundation division
-6. On the left, click 'My Downloads'
-7. Search for either Fusion or Workstation
-8. Click the product name (VMware Fusion or VMware Workstation Pro )
-9. Notice the dropdown for the Personal Use edition (it is the exact same binaries as the Commercial one)
-10. Select 17.5.2 or 13.5.2
-11. Download and install
+- [VMware Workstation Pro](https://blogs.vmware.com/workstation/2024/05/vmware-workstation-pro-now-available-free-for-personal-use.html)UPD: after broadcom acquisition, follow the next steps:
+	1. Go to [broadcom.com](https://www.broadcom.com/)
+	2. In the upper right corner, select 'Support Portal'
+	3. Either log in by clicking 'Go To Portal' or 'Register' for a basic Broadcom account [Quick link to the registration form](https://profile.broadcom.com/web/registration)
+	4. Once logged in, go to [support.broadcom.com](https://support.broadcom.com/) if you're not redirected there
+	5. Click the dropdown to choose the VMware Cloud Foundation division
+	6. On the left, click 'My Downloads'
+	7. Search for either Fusion or Workstation
+	8. Click the product name (VMware Fusion or VMware Workstation Pro )
+	9. Notice the dropdown for the Personal Use edition (it is the exact same binaries as the Commercial one)
+	10. Select 17.5.2 or 13.5.2
+	11. Download and install
 
-wsl: `wsl --install`
-neovim: `winget install Neovim.Neovim`
-chocolatey: `winget Chocolatey.Chocolatey`
-ohMyPosh: `winget upgrade JanDeDobbeleer.OhMyPosh -s winget`
-git:
-	`winget install git.git`
-	`git config --global user.email "<{ID}+{username}@users.noreply.github.com>"`
-	`git config --global user.name "<username>"`
-Obsidian: `winget install Obsidian.Obsidian`
-[Raspberry Pi Imager](https://www.raspberrypi.com/software/): `winget search rpi-imager`
-[Docker](https://docs.docker.com/desktop/install/windows-install/): `windet search docker`
-Group Policy: `TBD`
-Task Scheduler: `pre-installed`
-[PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/): `FancyZones`, `PowerToys Run`, `Keyboard Manager`
-[Sysinternals](https://learn.microsoft.com/en-us/sysinternals/): `Autoruns`, `Process Explorer`, `RegJump`, `TCPView` 
+- wsl: `wsl --install`
+- neovim: `winget install Neovim.Neovim`
+- chocolatey: `winget Chocolatey.Chocolatey`
+- ohMyPosh: `winget upgrade JanDeDobbeleer.OhMyPosh -s winget`
+- git:
+	- `winget install git.git`
+	- `git config --global user.email "<{ID}+{username}@users.noreply.github.com>"`
+	- `git config --global user.name "<username>"`
+- Obsidian: `winget install Obsidian.Obsidian`
+- [Raspberry Pi Imager](https://www.raspberrypi.com/software/): `winget search rpi-imager`
+- [Docker](https://docs.docker.com/desktop/install/windows-install/): `windet search docker`
+- Group Policy: `TBD`
+- Task Scheduler: `pre-installed`
+- [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/): `FancyZones`, `PowerToys Run`, `Keyboard Manager`
+- [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/): `Autoruns`, `Process Explorer`, `RegJump`, `TCPView` 
