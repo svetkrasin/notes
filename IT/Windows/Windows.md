@@ -2,7 +2,7 @@ WSL back to Windows - `/mnt/c/Users/<username>`
 Change drive in Terminal - `<Drive_Letter>:`
 Find various software: `winget search <software_name>`
 
-My Windows machine: [PC Tower from NZXT](https://nzxt.com/product/player-pc-770-edition) ![[NZXT_Side_view.png]]
+My Windows machine: [PC Tower from NZXT](https://nzxt.com/product/player-pc-770-edition) ![[NZXT Side View.png]]
 ## Tech Specs
 
 Key Specs
