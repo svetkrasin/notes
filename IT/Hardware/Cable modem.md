@@ -1,0 +1,2 @@
+#network
+Some modems have enhanced spectrum analyzer. It allows to see any noise on the home network. This noise goes all the way to the cable operator head end, which can impact all the neighbors with whom I share the cable.

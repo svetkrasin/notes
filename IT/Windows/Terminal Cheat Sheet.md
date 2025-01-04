@@ -1,0 +1,1 @@
+`alt+shift+-` - split screen horizontally
